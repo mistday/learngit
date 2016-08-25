@@ -1,4 +1,18 @@
 body {
-    background-image: linear-gradient(white, gray);
-    height: 768px;
+    background-image: linear-gradient(white, lightslategrey);
+    height: 100%;
+    width: 100%;
+    }
+div.loginwindow {
+    background-image: linear-gradient(white, lightslategrey);
+    height: 500px;
+    width: 25%;
+    margin: 5% 37% 0 38%;
+    box-shadow: 5px 5px 10px 1px slategrey;
+}
+.inputloginwindow {
+
+}
+.buttonloginwindow {padding: 2px 5px;
+
 }
