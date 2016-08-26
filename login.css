@@ -1,18 +1,18 @@
 body {
-    background-image: linear-gradient(white, lightgrey);
-    height: 100%;
-    width: 100%;
-    
-    }
-div.loginwindow {
     background-color: white;
-    height: 500px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white),to (deepskyblue));
+    background-image: -webkit-linear-gradient(top, white, deepskyblue);
+    background-image: -moz-linear-gradient(top, white, deepskyblue);
+    background-image: linear-gradient(to bottom, white, deepskyblue);
+    }
+.loginwindow {
+    background-color: white;
     width: 25%;
     margin: 5% 37% 0 38%;
-    box-shadow: 5px 5px 10px 1px lightslategrey;
+    box-shadow: 5px 5px 5px 5px lightslategrey;
 }
 .inputloginwindow {
-    padding: 5px 5px;
+    padding: 2px;
     width: 50%;
     margin: 5% 25%;
 }
@@ -20,7 +20,12 @@ div.loginwindow {
     padding: 10px 15px;
     width: 40%;
     margin: 5% 30% 0 30%;
-    background-color: limegreen;
+    background-color: deepskyblue;
     color:white;
-
+}
+.forget {margin-left: 45%;
+}
+img {
+    height: 50%;
+    width: 100%;
 }
