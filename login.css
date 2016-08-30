@@ -8,11 +8,12 @@ body {
   background-image: -webkit-linear-gradient(top, #f8fde9, #d6d3a8);
   background-image: -moz-linear-gradient(top, #f8fde9, #d6d3a8);
   background-image: linear-gradient(to bottom, #f8fde9, #d6d3a8);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .loginwindow {
     background-color: white;
     width: 25%;
-    margin: 5% 37% 5% 38%;
+    margin: 5% 37% 0% 38%;
     box-shadow: 5px 5px 5px 5px lightslategrey;
 }
 .inputloginwindow {
@@ -23,7 +24,7 @@ body {
 .buttonloginwindow {
     padding: 10px 15px;
     width: 40%;
-    margin: 5% 30% 0 30%;
+    margin: 5% 30% 5% 30%;
     background-color: #d6d3a8;
     color:white;
 }
