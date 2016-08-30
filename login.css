@@ -14,21 +14,29 @@ body {
     background-color: white;
     width: 25%;
     margin: 5% 37% 0% 38%;
-    box-shadow: 5px 5px 5px 5px lightslategrey;
-}
+    }
 .inputloginwindow {
-    padding: 2px;
-    width: 50%;
-    margin: 5% 25%;
+    padding: 6px;
+    width: 55%;
+    margin: 5% 20%;
 }
+.unpass{
+    font-size: 50%;
+    float: left;
+    margin-left: 20%;
+    }
 .buttonloginwindow {
     padding: 10px 15px;
-    width: 40%;
-    margin: 5% 30% 5% 30%;
-    background-color: #d6d3a8;
+    width: 60%;
+    margin: 5% 20% 5% 20%;
+    background-color: mediumspringgreen;
     color:white;
+    box-shadow: 2px 2px 10px 1px lightslategrey;
 }
-.forget {margin-left: 45%;
+.forget {
+    font-size: 50%;
+    float: left;
+    margin-left: 40%;
 }
 img {
     height: 50%;
