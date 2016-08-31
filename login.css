@@ -8,26 +8,37 @@ body {
   background-image: -webkit-linear-gradient(top, #f8fde9, #d6d3a8);
   background-image: -moz-linear-gradient(top, #f8fde9, #d6d3a8);
   background-image: linear-gradient(to bottom, #f8fde9, #d6d3a8);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .loginwindow {
     background-color: white;
     width: 25%;
-    margin: 5% 37% 0 38%;
-    box-shadow: 5px 5px 5px 5px lightslategrey;
-}
+    margin: 5% 37% 0% 38%;
+    }
 .inputloginwindow {
-    padding: 2px;
-    width: 50%;
-    margin: 5% 25%;
+    padding: 6px;
+    width: 55%;
+    margin: 0 20% 5% 20%;
 }
+.unpass{
+    font-size: 60%;
+    float: left;
+    margin-left: 20%;
+    color: gray;
+    }
 .buttonloginwindow {
     padding: 10px 15px;
-    width: 40%;
-    margin: 5% 30% 0 30%;
-    background-color: deepskyblue;
+    width: 60%;
+    margin: 5% 20% 5% 20%;
+    background-color: #109849;
     color:white;
+    box-shadow: 2px 2px 10px 1px lightslategrey;
 }
-.forget {margin-left: 45%;
+.forget {
+    font-size: 50%;
+    float: left;
+    margin-left: 40%;
+    color: #04B404
 }
 img {
     height: 50%;
